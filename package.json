@@ -1,11 +1,12 @@
 {
-  "name": "Fingerprinter",
+  "name": "react-fingerprint",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
+  "files": ["lib/**/*"],
   "devDependencies": {
     "typescript": "^4.7.4"
   }
