@@ -1,6 +1,6 @@
 {
   "name": "react-fingerprint",
-  "description": "Library for generating a fingerprint",
+  "description": "Utility for generating user fingerprints with one function",
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -14,6 +14,7 @@
     "type": "git",
     "url": "https://github.com/Exerra/react-fingerprint.git"
   },
+  "keywords": ["react", "fingerprint", "fingerprinter"],
   "files": ["lib/**/*"],
   "devDependencies": {
     "typescript": "^4.7.4"
