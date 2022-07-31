@@ -27,7 +27,10 @@ const asyncFunc = async () => {
 
 This package relies entirely on browser APIs, so if you are using it with an SSR framework (example being Remix) then find a way to run it only client-side
 
-Remix example
+### Remix example
+
+To run code client-side in Remix, you use the React `useEffect` function.
+
 ```js
 import { getFingerprint } from "react-fingerprint"
 import React, {useEffect} from "react"
