@@ -27,11 +27,11 @@ export default function view() {
 	useEffect(() => {
 		(async () => { // as react-fingerprint returns promises, you will need to either wrap it in an async func or use .then()
 			let fingerprint = await getFingerprint()
-        })
-    })
+		})
+	})
     
-    return (
-        <h1>whatever</h1>
-    )
+	return (
+		<h1>whatever</h1>
+	)
 }
 ```
