@@ -6,7 +6,7 @@ import getDeviceInfo from "./sources/device";
 import fonts from "./sources/fonts";
 import audio from "./sources/audio";
 import webgl from "./sources/webgl";
-import contrast from "./sources/contrast";
+import contrast, { ContrastPreference } from "./sources/contrast";
 import color_gamut from "./sources/color_gamut";
 import forced_colors from "./sources/forced_colors";
 import hdr from "./sources/hdr";
@@ -141,5 +141,5 @@ export const getRawFingerprint = async (): Promise<RawFingerprintData>  => {
 
 export const getFingerprint = async (): Promise<string> => {
 	let raw = await getRawFingerprint()
-	return await encode(raw)
+	return await encode(JSON.stringify(raw))
 }

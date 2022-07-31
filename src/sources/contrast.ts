@@ -2,7 +2,8 @@ export const enum ContrastPreference {
 	less = "less",
 	none = "none",
 	more = "more",
-	forcedColors = "forcedColors"
+	forcedColors = "forcedColors",
+	error = "error"
 }
 
 export default function (): ContrastPreference {
@@ -22,7 +23,7 @@ export default function (): ContrastPreference {
 		return ContrastPreference.forcedColors
 	}
 
-	return undefined
+	return ContrastPreference.error
 }
 
 const doesMatch = ( value: string ) => {

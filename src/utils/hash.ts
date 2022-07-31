@@ -1,4 +1,4 @@
-export const encode = val =>
+export const encode = (val: string) =>
 	crypto.subtle
 		.digest( 'SHA-256', new TextEncoder().encode( val ) )
 		.then( h => {

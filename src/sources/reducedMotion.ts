@@ -5,7 +5,7 @@ export default function (): boolean {
 	if (doesMatch( 'no-preference' )) {
 		return false
 	}
-	return undefined
+	return false
 }
 
 const doesMatch = ( value: string ) => {
