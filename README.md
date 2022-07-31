@@ -1,6 +1,15 @@
 # react-fingerprint
 
-Generate a fingerprint with one function call!
+Utility for generating user fingerprints with one function.
+
+## Data points
+* Browser vendor, language, useragent, plugins, capabilities (contacts, pdf, cookies), mimetypes, canvas, doNotTrack
+* Device bars (menubar, toolbar etc), touchscreen, cpu, display sizes, ram, colour info
+* Timezone
+* Audio test
+* Webgl info
+* Fonts
+* Math calculations (some of them differ ever so slightly between browsers)
 
 ## Usage
 
